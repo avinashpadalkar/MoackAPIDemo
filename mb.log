@@ -1,0 +1,12 @@
+{"level":"info","message":"[mb:5000] mountebank v2.5.0 now taking orders - point your browser to http://localhost:5000/ for help","timestamp":"2021-10-22T10:48:25.265Z"}
+{"level":"info","message":"[mb:5000] POST /imposters","timestamp":"2021-10-22T10:48:25.305Z"}
+{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-22T10:48:25.321Z"}
+{"level":"info","message":"[mb:5000] POST /imposters","timestamp":"2021-10-22T10:48:25.330Z"}
+{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-10-22T10:48:25.334Z"}
+{"level":"info","message":"[mb:5000] POST /imposters","timestamp":"2021-10-22T10:48:25.335Z"}
+{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-10-22T10:48:25.337Z"}
+{"level":"info","message":"[mb:5000] POST /imposters","timestamp":"2021-10-22T10:48:25.339Z"}
+{"level":"info","message":"[http:5004] Open for business...","timestamp":"2021-10-22T10:48:25.340Z"}
+{"level":"info","message":"[http:5004] ::1:60104 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-22T10:48:28.408Z"}
+{"level":"info","message":"[http:5004] ::1:60777 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-22T12:26:13.883Z"}
+{"level":"info","message":"[http:5004] ::1:64615 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-25T08:14:00.552Z"}
