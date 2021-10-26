@@ -1,16 +1,19 @@
 const mbHelper = require('./mountebank-helper');
 const settings = require('./settings.js');
-const responseClass = require('./get-prescription-service-response.js');
+const responseClass = require('./get-facilityId-service-response.js');
 
 function addService() {
-    const response = responseClass.getPrescriptionServiceResponse
+    const response = responseClass.getFacilityIdServiceResponse
+
+    const rxId = 000123
 
     const stubs = [
         {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/api/rx/prescriptions/312009"
+                    // "path": "/api/fs/prescriptions/"+rxId+"/facility-id"
+                    "path": "/api/rx/prescriptions/312008"
                 }
             }],
             responses: [
