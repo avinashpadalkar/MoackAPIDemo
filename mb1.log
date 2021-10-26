@@ -1,5 +1,0 @@
-{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-26T12:36:55.698Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-26T12:36:55.733Z"}
-{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-26T12:36:55.751Z"}
-{"level":"info","message":"[http:5001] ::1:57988 => GET /api/fs/prescriptions/ids","timestamp":"2021-10-26T12:36:58.598Z"}
-{"level":"info","message":"[http:5001] ::1:57992 => GET /api/fs/prescriptions/1234/facility-id","timestamp":"2021-10-26T12:37:01.162Z"}
