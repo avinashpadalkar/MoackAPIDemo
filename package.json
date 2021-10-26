@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "axios": "^0.23.0",
     "mountebank": "^2.5.0",
     "node-fetch": "^3.0.0"
   },
-  "name": "nodedemo",
+  "name": "mountebank-mock-apis",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
@@ -15,7 +14,7 @@
     "npm",
     "init"
   ],
-  "author": "",
+  "author": "Avinash Padalkar",
   "license": "ISC",
-  "description": ""
+  "description": "A mountebank server for mocking api request-responses"
 }
