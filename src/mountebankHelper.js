@@ -1,8 +1,8 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-const settings = require('./settings.js');
+const ports = require('./ports.js');
 
-function postImposter(body) {
-    const url = `http://127.0.0.1:${settings.port}/imposters`;
+function createImposter(body) {
+    const url = `http://127.0.0.1:${ports.mb}/imposters`;
 
     return fetch(url, {
                     method:'POST',
@@ -11,4 +11,4 @@ function postImposter(body) {
                 });
 }
 
-module.exports = { postImposter };
+module.exports = { createImposter };

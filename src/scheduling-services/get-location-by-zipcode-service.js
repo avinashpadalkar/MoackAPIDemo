@@ -1,7 +1,7 @@
 
 const mbHelper = require('./mountebank-helper');
-const settings = require('./settings.js');
-const responseClass = require('./get-pharmacy-locations-service-response.js');
+const settings = require('./ports.js');
+const responseClass = require('./get-location-by-zipcode-service-response.js');
 
 function addService() {
     const response = responseClass.getPharmacyLocationsServiceResponse
@@ -11,7 +11,7 @@ function addService() {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/partners/locations"
+                    "path": "/zips/zipcode"
                 }
             }],
             responses: [

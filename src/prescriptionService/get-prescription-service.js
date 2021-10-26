@@ -1,17 +1,16 @@
-
 const mbHelper = require('./mountebank-helper');
-const settings = require('./settings.js');
-const responseClass = require('./get-location-by-zipcode-service-response.js');
+const settings = require('./ports.js');
+const responseClass = require('./get-prescription-service-response.js');
 
 function addService() {
-    const response = responseClass.getPharmacyLocationsServiceResponse
+    const response = responseClass.getPrescriptionServiceResponse
 
     const stubs = [
         {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/zips/zipcode"
+                    "path": "/api/rx/prescriptions/312009"
                 }
             }],
             responses: [
