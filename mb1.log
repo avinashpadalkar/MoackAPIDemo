@@ -1,0 +1,8 @@
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-27T07:35:09.652Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T07:35:09.689Z"}
+{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-27T07:35:09.707Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T07:35:09.717Z"}
+{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-10-27T07:35:09.720Z"}
+{"level":"info","message":"[http:5002] ::1:60524 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-27T07:35:23.285Z"}
+{"level":"info","message":"[http:5002] ::1:60526 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-27T07:35:24.161Z"}
+{"level":"info","message":"[http:5002] ::1:60528 => GET /api/rx/prescriptions/312009","timestamp":"2021-10-27T07:35:25.255Z"}

@@ -1,16 +1,16 @@
-const mbHelper = require('./mountebank-helper');
-const settings = require('./ports.js');
-const responseClass = require('./get-prescription-service-response.js');
+const mbHelper = require('../mountebankHelper');
+const ports = require('../ports.js');
+const getPrescriptionServiceResponse = require('./response/getPrescriptionServiceResponse.js').response;
 
 function addService() {
-    const response = responseClass.getPrescriptionServiceResponse
+    const id = "312009"
 
     const stubs = [
         {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/api/rx/prescriptions/312009"
+                    "path": "/api/rx/prescriptions/"+id
                 }
             }],
             responses: [
@@ -20,7 +20,7 @@ function addService() {
                         headers: {
                             "Content-Type": "application/json"
                         },
-                        body: JSON.stringify(response)
+                        body: JSON.stringify(getPrescriptionServiceResponse)
                     }
                 }
             ]
@@ -28,12 +28,12 @@ function addService() {
     ];
 
     const imposter = {
-        port: settings.local_port,
+        port: ports.prescriptionService,
         protocol: 'http',
         stubs: stubs
     };
 
-    return mbHelper.postImposter(imposter);
+    return mbHelper.createImposter(imposter);
 }
 
 module.exports = { addService };

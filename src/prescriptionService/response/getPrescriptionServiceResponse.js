@@ -1,4 +1,4 @@
-const getPrescriptionServiceResponse = {
+const response = {
     "id": 312009,
     "rxNo": "906066",
     "createdTimestamp": "2021-01-05T05:00:00Z",
@@ -47,4 +47,4 @@ const getPrescriptionServiceResponse = {
     "pharmacyNpi": "3308055"
 }
 
-module.exports = {getPrescriptionServiceResponse};
+module.exports = {response};
