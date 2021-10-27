@@ -1,11 +1,8 @@
-{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-27T07:49:10.306Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T07:49:10.355Z"}
-{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-27T07:49:10.381Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T07:49:10.387Z"}
-{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-10-27T07:49:10.390Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T07:49:10.392Z"}
-{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-10-27T07:49:10.395Z"}
-{"level":"info","message":"[http:5003] ::1:60705 => GET /zips/1234","timestamp":"2021-10-27T07:49:24.809Z"}
-{"level":"info","message":"[http:5003] ::1:60707 => GET /partners/locations","timestamp":"2021-10-27T07:49:33.383Z"}
-{"level":"info","message":"[http:5001] ::1:60709 => GET /api/fs/prescriptions/1234/facility-id","timestamp":"2021-10-27T07:49:38.266Z"}
-{"level":"info","message":"[http:5001] ::1:60713 => GET /api/fs/prescriptions/ids","timestamp":"2021-10-27T07:49:44.830Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-27T11:30:01.932Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T11:30:01.969Z"}
+{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-27T11:30:01.988Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T11:30:01.992Z"}
+{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-10-27T11:30:01.995Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-27T11:30:01.997Z"}
+{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-10-27T11:30:02.000Z"}
+{"level":"info","message":"[http:5002] ::1:50499 => GET /api/rx/prescriptions?ids=123","timestamp":"2021-10-27T11:30:04.831Z"}
