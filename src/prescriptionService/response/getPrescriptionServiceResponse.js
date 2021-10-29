@@ -33,6 +33,7 @@ const response = {
     },
     "prescriber": {
         "npi": "1184752446",
+        "firstName": "ODALY",
         "lastName": "Blake Pharmacy",
         "address": {
             "city": "NEW YORK,",

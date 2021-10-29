@@ -3,7 +3,7 @@ const ports = require('../ports.js');
 const getPrescriptionServiceResponse = require('./response/getPrescriptionServiceResponse.js').response;
 
 function addService() {
-    const id = "312009"
+    const id = "123"
 
     const stubs = [
         {

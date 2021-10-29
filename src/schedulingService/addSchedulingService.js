@@ -2,17 +2,19 @@ const mbHelper = require('../mountebankHelper');
 const ports = require('../ports.js');
 const getAllLocationsResponse = require('./response/getAllLocationsResponse.js').response;
 const getLocationByZipcodeResponse = require('./response/getLocationByZipcodeResponse.js').response;
+const getZonesResponse = require('./response/getZones.js').response;
 
 
 function addService() {
-    const zipcode = "1234"
+    const zipcode = "27604"
 
     const stubs = [
         {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/partners/locations"
+                    // "path": "/partners/locations"
+                    "path": "/api/sched/pharmacy-locations"
                 }
             }],
             responses: [
@@ -31,7 +33,8 @@ function addService() {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/zips/"+zipcode
+                    // "path": "/zips/"+zipcode
+                    "path": "/api/sched/zones/zips/"+zipcode
                 }
             }],
             responses: [
@@ -42,6 +45,25 @@ function addService() {
                             "Content-Type": "application/json"
                         },
                         body: JSON.stringify(getLocationByZipcodeResponse)
+                    }
+                }
+            ]
+        },
+        {
+            predicates: [ {
+                equals: {
+                    method: "GET",
+                    "path": "/api/sched/zones/"
+                }
+            }],
+            responses: [
+                {
+                    is: {
+                        statusCode: 200,
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(getZonesResponse)
                     }
                 }
             ]
