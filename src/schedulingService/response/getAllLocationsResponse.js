@@ -1,47 +1,265 @@
 const response = [
-  {
-    "zipCodes": [
-      "10029",
-      "10035",
-      "10037",
-      "10032",
-      "10033",
-      "10034",
-      "10040",
-      "10044",
-      "10026",
-      "10027",
-      "10030",
-      "10031",
-      "10039",
-      "10115",
-      "10000",
-      "10023",
-      "10024",
-      "10025",
-      "10069",
-      "10125",
-      "10132",
-      "10133",
-      "10021",
-      "10028",
-      "10065",
-      "10075",
-      "10128",
-      "10130",
-      "10131",
-      "10162"
-    ],
-    "store": {
-      "name": "Manhattan, NY",
-      "address": {
-        "addressLine1": "1868 3rd Ave",
-        "city": "Manhattan",
-        "state": "NY",
-        "zipCode": "10029"
-      },
-      "npi": "1184752446",
+    {
       "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "tuesday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "wednesday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "thursday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "friday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "14:00:00"
+        }
+      },
+      "id": 5,
+      "name": "Miami, FL",
+      "npi": "1114541018",
+      "nabp": "5712080",
+      "isEnabled": true,
+      "onfleetId": "6k7awwz46tdojkw",
+      "addressLine1": "2505 NW 54th St",
+      "addressLine2": null,
+      "city": "Miami",
+      "state": "FL",
+      "zipcode": "33142",
+      "phoneNumber": "3056362994",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 7,
+      "locationId": 5
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "tuesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "wednesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "thursday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "friday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "13:00:00"
+        }
+      },
+      "id": 10,
+      "name": "Atlanta, GA",
+      "npi": "1144819715",
+      "nabp": "1175959",
+      "isEnabled": true,
+      "onfleetId": "999placeholder3",
+      "addressLine1": "714 Moreland Ave SE",
+      "addressLine2": null,
+      "city": "Atlanta",
+      "state": "GA",
+      "zipcode": "30316",
+      "phoneNumber": "7708479857",
+      "timeZone": "America/New_York",
+      "createdBy": null,
+      "createdAt": "2021-05-18 12:34:55.836614",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 5,
+      "locationId": 10
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "tuesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "wednesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "thursday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "friday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "13:00:00"
+        }
+      },
+      "id": 4,
+      "name": "Baltimore, MD",
+      "npi": "1306467428",
+      "nabp": "2143674",
+      "isEnabled": false,
+      "onfleetId": "ad4tv9gso4oloch",
+      "addressLine1": "300 St. Paul Pl",
+      "addressLine2": null,
+      "city": "Baltimore",
+      "state": "MD",
+      "zipcode": "21201",
+      "phoneNumber": "4108487426",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": "2021-10-22 18:04:26.672277",
+      "zoneCount": 5,
+      "locationId": 4
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "tuesday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "wednesday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "thursday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "friday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "14:00:00"
+        }
+      },
+      "id": 7,
+      "name": "Raleigh, NC",
+      "npi": "1366073777",
+      "nabp": "Raleigh, NC",
+      "isEnabled": true,
+      "onfleetId": "4h5awwz46tdojkw",
+      "addressLine1": "3029 Capital Boulevard #105",
+      "addressLine2": null,
+      "city": "Raleigh",
+      "state": "NC",
+      "zipcode": "27604",
+      "phoneNumber": "9192672014",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 7,
+      "locationId": 7
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "tuesday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "wednesday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "thursday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "friday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        }
+      },
+      "id": 2,
+      "name": "Somerville, NJ",
+      "npi": "1417058439",
+      "nabp": "3135868",
+      "isEnabled": true,
+      "onfleetId": "jdnvsjv77343jak",
+      "addressLine1": "40 W Main St",
+      "addressLine2": null,
+      "city": "Somerville",
+      "state": "NJ",
+      "zipcode": "08876",
+      "phoneNumber": "9087250585",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 8,
+      "locationId": 2
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
         "monday": {
           "open": "09:00:00",
           "close": "19:00:00"
@@ -65,369 +283,34 @@ const response = [
         "saturday": {
           "open": "09:00:00",
           "close": "17:00:00"
-        },
-        "sunday": {}
-      }
-    }
-  },
-  {
-    "zipCodes": [
-      "11004",
-      "11365",
-      "11366",
-      "11367",
-      "11375",
-      "11411",
-      "11412",
-      "11415",
-      "11418",
-      "11419",
-      "11423",
-      "11426",
-      "11427",
-      "11428",
-      "11429",
-      "11432",
-      "11433",
-      "11435",
-      "11354",
-      "11355",
-      "11357",
-      "11358",
-      "11360",
-      "11361",
-      "11362",
-      "11363",
-      "11364",
-      "11368",
-      "11369",
-      "11096",
-      "11413",
-      "11414",
-      "11417",
-      "11420",
-      "11421",
-      "11422",
-      "11430",
-      "11434",
-      "11436",
-      "11691",
-      "11692",
-      "11693",
-      "11694",
-      "11695",
-      "11697",
-      "11416",
-      "11356",
-      "11381",
-      "11101",
-      "11103",
-      "11104",
-      "11105",
-      "11106",
-      "11109",
-      "11370",
-      "11372",
-      "11373",
-      "11377",
-      "11378",
-      "11379",
-      "11385",
-      "11374",
-      "11236",
-      "11208",
-      "11205",
-      "11212",
-      "11239",
-      "11121",
-      "11201",
-      "11206",
-      "11211",
-      "11213",
-      "11215",
-      "11217",
-      "11216",
-      "11222",
-      "11225",
-      "11231",
-      "11221",
-      "11102",
-      "11237",
-      "11238",
-      "11249",
-      "11203",
-      "11207",
-      "11241",
-      "11233",
-      "11242",
-      "11243",
-      "11214",
-      "11223",
-      "11224",
-      "11229",
-      "11234",
-      "11235",
-      "11204",
-      "11209",
-      "11210",
-      "11218",
-      "11219",
-      "11220",
-      "11226",
-      "11228",
-      "11230",
-      "11232",
-      "10301",
-      "10302",
-      "10303",
-      "10304",
-      "10305",
-      "10306",
-      "10307",
-      "10308",
-      "10309",
-      "10310",
-      "10312",
-      "10314",
-      "10311",
-      "10460",
-      "10461",
-      "10462",
-      "10465",
-      "10472",
-      "10458",
-      "10463",
-      "10464",
-      "10466",
-      "10467",
-      "10468",
-      "10469",
-      "10470",
-      "10471",
-      "10475",
-      "10451",
-      "10452",
-      "10453",
-      "10454",
-      "10455",
-      "10456",
-      "10457",
-      "10459",
-      "10474",
-      "10704",
-      "10701",
-      "10473",
-      "10703",
-      "10705",
-      "10710",
-      "10001",
-      "10002",
-      "10003",
-      "10004",
-      "10005",
-      "10006",
-      "10007",
-      "10009",
-      "10010",
-      "10011",
-      "10012",
-      "10013",
-      "10014",
-      "10016",
-      "10017",
-      "10018",
-      "10019",
-      "10020",
-      "10022",
-      "10036",
-      "10038",
-      "10280",
-      "10282",
-      "10055",
-      "10122",
-      "10170",
-      "10279",
-      "10152",
-      "10173",
-      "10080",
-      "10153",
-      "10171",
-      "10104",
-      "10154",
-      "10174",
-      "10281",
-      "10106",
-      "10179",
-      "10105",
-      "10158",
-      "10172",
-      "10110",
-      "10165",
-      "10199",
-      "10112",
-      "10166",
-      "10270",
-      "10041",
-      "10118",
-      "10168",
-      "10271",
-      "10043",
-      "10119",
-      "10169",
-      "10278",
-      "11001",
-      "11002",
-      "11003",
-      "11005",
-      "11010",
-      "11020",
-      "11021",
-      "11022",
-      "11023",
-      "11024",
-      "11025",
-      "11026",
-      "11027",
-      "11030",
-      "11040",
-      "11041",
-      "11042",
-      "11043",
-      "11044",
-      "11050",
-      "11051",
-      "11052",
-      "11053",
-      "11054",
-      "11055",
-      "11099",
-      "11501",
-      "11507",
-      "11509",
-      "11510",
-      "11514",
-      "11516",
-      "11518",
-      "11520",
-      "11530",
-      "11531",
-      "11535",
-      "11536",
-      "11542",
-      "11545",
-      "11547",
-      "11548",
-      "11549",
-      "11550",
-      "11551",
-      "11552",
-      "11553",
-      "11554",
-      "11555",
-      "11556",
-      "11557",
-      "11558",
-      "11559",
-      "11560",
-      "11561",
-      "11563",
-      "11564",
-      "11565",
-      "11566",
-      "11568",
-      "11569",
-      "11570",
-      "11571",
-      "11572",
-      "11575",
-      "11576",
-      "11577",
-      "11579",
-      "11580",
-      "11581",
-      "11582",
-      "11583",
-      "11588",
-      "11590",
-      "11592",
-      "11593",
-      "11594",
-      "11595",
-      "11596",
-      "11597",
-      "11598",
-      "11599",
-      "11709",
-      "11710",
-      "11714",
-      "11732",
-      "11735",
-      "11736",
-      "11737",
-      "11753",
-      "11756",
-      "11762",
-      "11765",
-      "11771",
-      "11773",
-      "11774",
-      "11783",
-      "11791",
-      "11793",
-      "11797",
-      "11801",
-      "11802",
-      "11803",
-      "11804",
-      "11815",
-      "11819",
-      "11853",
-      "11854",
-      "11855",
-      "11578",
-      "11701",
-      "11702",
-      "11703",
-      "11704",
-      "11706",
-      "11707",
-      "11716",
-      "11722",
-      "11724",
-      "11725",
-      "11726",
-      "11729",
-      "11730",
-      "11747",
-      "11749",
-      "11751",
-      "11752",
-      "11754",
-      "11757",
-      "11780",
-      "11787",
-      "11798",
-      "11717",
-      "11758",
-      "11746",
-      "11731",
-      "11718",
-      "11740",
-      "11721",
-      "11743",
-      "11768",
-      "11795"
-    ],
-    "store": {
-      "name": "Brooklyn, NY",
-      "address": {
-        "addressLine1": "31 Debevoise St",
-        "city": "Brooklyn",
-        "state": "NY",
-        "zipCode": "11206"
+        }
       },
-      "npi": "1962488387",
+      "id": 6,
+      "name": "Manhattan, NY",
+      "npi": "1184752446",
+      "nabp": "3308055",
+      "isEnabled": true,
+      "onfleetId": "5j6awwz46tdojkw",
+      "addressLine1": "1868 3rd Ave",
+      "addressLine2": null,
+      "city": "Manhattan",
+      "state": "NY",
+      "zipcode": "10029",
+      "phoneNumber": "2123691350",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 6,
+      "locationId": 6
+    },
+    {
       "hours": {
+        "sunday": {
+          "open": "09:00:00",
+          "close": "18:00:00"
+        },
         "monday": {
           "open": "08:00:00",
           "close": "20:00:00"
@@ -451,14 +334,181 @@ const response = [
         "saturday": {
           "open": "09:00:00",
           "close": "18:00:00"
-        },
-        "sunday": {
-          "open": "09:00:00",
-          "close": "18:00:00"
         }
-      }
+      },
+      "id": 1,
+      "name": "Brooklyn, NY",
+      "npi": "1962488387",
+      "nabp": "3352779",
+      "isEnabled": true,
+      "onfleetId": "b432b23jb43bh24",
+      "addressLine1": "31 Debevoise St",
+      "addressLine2": null,
+      "city": "Brooklyn",
+      "state": "NY",
+      "zipcode": "11206",
+      "phoneNumber": "7187827539",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 6,
+      "locationId": 1
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "tuesday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "wednesday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "thursday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "friday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "19:00:00"
+        }
+      },
+      "id": 3,
+      "name": "Philadelphia, PA",
+      "npi": "1770146367",
+      "nabp": "6008355",
+      "isEnabled": true,
+      "onfleetId": "23rkedkjdfkljfd",
+      "addressLine1": "1222 Walnut St",
+      "addressLine2": null,
+      "city": "Philadelphia",
+      "state": "PA",
+      "zipcode": "19107",
+      "phoneNumber": "2159416240",
+      "timeZone": "America/New_York",
+      "createdBy": "1",
+      "createdAt": "2021-03-10 20:38:13.972048",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 4,
+      "locationId": 3
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "09:00:00",
+          "close": "19:00:00"
+        },
+        "tuesday": {
+          "open": "09:00:00",
+          "close": "19:00:00"
+        },
+        "wednesday": {
+          "open": "09:00:00",
+          "close": "19:00:00"
+        },
+        "thursday": {
+          "open": "09:00:00",
+          "close": "19:00:00"
+        },
+        "friday": {
+          "open": "09:00:00",
+          "close": "19:00:00"
+        },
+        "saturday": {
+          "open": "09:00:00",
+          "close": "14:00:00"
+        }
+      },
+      "id": 8,
+      "name": "San Antonio, TX",
+      "npi": "1265947303",
+      "nabp": "5923354",
+      "isEnabled": true,
+      "onfleetId": "999placeholder1",
+      "addressLine1": "13331 Nacogdoches Rd",
+      "addressLine2": null,
+      "city": "San Antonio",
+      "state": "TX",
+      "zipcode": "78217",
+      "phoneNumber": "2109444545",
+      "timeZone": "America/Chicago",
+      "createdBy": null,
+      "createdAt": "2021-04-01 19:38:42.306428",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 1,
+      "locationId": 8
+    },
+    {
+      "hours": {
+        "sunday": {
+          "open": "",
+          "close": ""
+        },
+        "monday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "tuesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "wednesday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "thursday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "friday": {
+          "open": "10:00:00",
+          "close": "17:00:00"
+        },
+        "saturday": {
+          "open": "10:00:00",
+          "close": "13:00:00"
+        }
+      },
+      "id": 9,
+      "name": "Dallas, TX",
+      "npi": "1871137737",
+      "nabp": "5929661",
+      "isEnabled": true,
+      "onfleetId": "999placeholder2",
+      "addressLine1": "5626 Maple Ave",
+      "addressLine2": "Suite 140",
+      "city": "Dallas",
+      "state": "TX",
+      "zipcode": "75235",
+      "phoneNumber": "9722387940",
+      "timeZone": "America/Chicago",
+      "createdBy": null,
+      "createdAt": "2021-04-01 19:38:42.630365",
+      "updatedBy": null,
+      "updatedAt": null,
+      "zoneCount": 1,
+      "locationId": 9
     }
-  }
-]
+  ]
 
 module.exports = {response};

@@ -2,7 +2,7 @@ const mbHelper = require('../mountebankHelper');
 const ports = require('../ports.js');
 const getAllLocationsResponse = require('./response/getAllLocationsResponse.js').response;
 const getLocationByZipcodeResponse = require('./response/getLocationByZipcodeResponse.js').response;
-const getZonesResponse = require('./response/getZones.js').response;
+const getZonesResponse = require('./response/getZonesResponse.js').response;
 
 
 function addService() {
@@ -13,7 +13,6 @@ function addService() {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    // "path": "/partners/locations"
                     "path": "/api/sched/pharmacy-locations"
                 }
             }],
@@ -53,7 +52,7 @@ function addService() {
             predicates: [ {
                 equals: {
                     method: "GET",
-                    "path": "/api/sched/zones/"
+                    "path": "/api/sched/zones"
                 }
             }],
             responses: [

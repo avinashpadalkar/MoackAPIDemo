@@ -1,10 +1,19 @@
-{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-10-29T11:28:38.407Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-29T11:28:38.452Z"}
-{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-10-29T11:28:38.473Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-29T11:28:38.479Z"}
-{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-10-29T11:28:38.482Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-10-29T11:28:38.483Z"}
-{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-10-29T11:28:38.500Z"}
-{"level":"info","message":"[http:5002] ::1:64612 => GET /api/rx/prescriptions?ids=123","timestamp":"2021-10-29T11:28:43.269Z"}
-{"level":"info","message":"[http:5001] ::ffff:127.0.0.1:64615 => GET /api/fs/prescriptions/ids?end-at=2021-10-29T16%3A58%3A52.495242%2B05%3A30&start-at=2021-10-22T16%3A58%3A52.495204%2B05%3A30&facility-ids=1%2C2&limit=500&page=0","timestamp":"2021-10-29T11:28:52.543Z"}
-{"level":"info","message":"[http:5002] ::ffff:127.0.0.1:64616 => GET /api/rx/prescriptions?ids=123","timestamp":"2021-10-29T11:28:52.548Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-11-01T06:59:27.406Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-01T06:59:27.452Z"}
+{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-11-01T06:59:27.467Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-01T06:59:27.472Z"}
+{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-11-01T06:59:27.474Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-01T06:59:27.475Z"}
+{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-11-01T06:59:27.490Z"}
+{"level":"info","message":"[http:5001] ::ffff:127.0.0.1:61591 => GET /api/fs/prescriptions/ids?end-at=2021-11-01T12%3A29%3A34.605903%2B05%3A30&start-at=2021-10-25T12%3A29%3A34.605849%2B05%3A30&facility-ids=1%2C2&limit=500&page=0","timestamp":"2021-11-01T06:59:34.658Z"}
+{"level":"info","message":"[http:5002] ::ffff:127.0.0.1:61592 => GET /api/rx/prescriptions?ids=123","timestamp":"2021-11-01T06:59:34.666Z"}
+{"level":"info","message":"[http:5003] ::ffff:127.0.0.1:61595 => GET /api/sched/zones","timestamp":"2021-11-01T06:59:40.596Z"}
+{"level":"info","message":"[http:5003] ::ffff:127.0.0.1:61596 => GET /api/sched/pharmacy-locations","timestamp":"2021-11-01T06:59:40.606Z"}
+{"level":"info","message":"[http:5001] ::1:61616 => GET /api/fs/prescriptions/1234/facility-id","timestamp":"2021-11-01T07:00:06.770Z"}
+{"level":"info","message":"[http:5001] ::1:61622 => GET /api/fs/prescriptions/ids","timestamp":"2021-11-01T07:00:10.359Z"}
+{"level":"info","message":"[http:5003] ::1:61626 => GET /api/sched/pharmacy-locations","timestamp":"2021-11-01T07:00:14.606Z"}
+{"level":"info","message":"[http:5003] ::1:61628 => GET /api/sched/zones","timestamp":"2021-11-01T07:00:18.470Z"}
+{"level":"info","message":"[http:5002] ::1:61630 => GET /api/rx/prescriptions?ids=123","timestamp":"2021-11-01T07:00:22.625Z"}
+{"level":"info","message":"[http:5003] ::ffff:127.0.0.1:61633 => GET /api/sched/zones/zips/27604","timestamp":"2021-11-01T07:00:31.204Z"}
+{"level":"info","message":"[http:5003] ::ffff:127.0.0.1:61634 => GET /api/sched/pharmacy-locations","timestamp":"2021-11-01T07:00:31.240Z"}
+{"level":"info","message":"[http:5003] ::1:61704 => GET /api/sched/pharmacy-locations","timestamp":"2021-11-01T07:02:50.845Z"}
