@@ -9,7 +9,7 @@ function addService() {
         {
             predicates: [ {
                 equals: {
-                    "query": { "ids": "123" },
+                    "query": { "ids": id },
                     method: "GET",
                     // "path": "/api/rx/prescriptions/"+id
                     "path": '/api/rx/prescriptions'
