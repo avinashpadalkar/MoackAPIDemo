@@ -1,10 +1,11 @@
-{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2021-11-10T08:04:25.024Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-10T08:04:25.066Z"}
-{"level":"info","message":"[http:5001] Open for business...","timestamp":"2021-11-10T08:04:25.084Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-10T08:04:25.090Z"}
-{"level":"info","message":"[http:5002] Open for business...","timestamp":"2021-11-10T08:04:25.093Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2021-11-10T08:04:25.094Z"}
-{"level":"info","message":"[http:5003] Open for business...","timestamp":"2021-11-10T08:04:25.108Z"}
-{"level":"info","message":"[http:5003] ::1:56471 => GET /api/sched/zones","timestamp":"2021-11-10T10:28:01.493Z"}
-{"level":"info","message":"[http:5003] ::1:56473 => GET /api/sched/zones","timestamp":"2021-11-10T10:28:02.479Z"}
-{"level":"info","message":"[http:5003] ::1:56503 => GET /api/sched/zones","timestamp":"2021-11-10T10:32:20.316Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.5.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-01-14T10:57:46.354Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2022-01-14T10:57:46.398Z"}
+{"level":"info","message":"[http:5001] Open for business...","timestamp":"2022-01-14T10:57:46.416Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2022-01-14T10:57:46.422Z"}
+{"level":"info","message":"[http:5002] Open for business...","timestamp":"2022-01-14T10:57:46.424Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2022-01-14T10:57:46.425Z"}
+{"level":"info","message":"[http:5003] Open for business...","timestamp":"2022-01-14T10:57:46.442Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2022-01-14T10:57:46.447Z"}
+{"level":"info","message":"[http:5004] Open for business...","timestamp":"2022-01-14T10:57:46.448Z"}
+{"level":"info","message":"[http:5001] ::1:59278 => GET /api/fs/prescriptions/1234/facility-id","timestamp":"2022-01-14T10:58:00.008Z"}
+{"level":"info","message":"[http:5001] ::1:59280 => GET /api/fs/prescriptions/ids","timestamp":"2022-01-14T10:58:04.076Z"}
